@@ -11,7 +11,7 @@ trap onerr ERR
 ## Download the source code.
 REPO_URL="https://github.com/KrahJohlito/binutils-gdb.git"
 REPO_FOLDER="binutils-gdb"
-BRANCH_NAME="iop-v2.35.2-2023"
+BRANCH_NAME="iop-v2.35.2"
 if test ! -d "$REPO_FOLDER"; then
   git clone --depth 1 -b "$BRANCH_NAME" "$REPO_URL"
 else
